@@ -9,7 +9,7 @@ Vue.use(VueAxios, axios)
 
 Vue.config.productionTip = false
 // Vue.prototype.$MainURL = 'http://gpturismo.herokuapp.com'
-Vue.prototype.$MainURL = 'http://natanaelpythonflask.pythonanywhere.com/'
+Vue.prototype.$MainURL = 'http://natanaelpythonflask.pythonanywhere.com'
 
 new Vue({
   router,
