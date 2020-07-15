@@ -21,7 +21,7 @@ import Comentarios from './components/Comentarios.vue'
 Vue.use(VueRouter)
 
 export default new VueRouter({
-
+    mode: "history",
     routes: [
         { path: '/', name: '/', component: StarterPage },
         { path: '/Home', name: 'Home', component: Home },
